@@ -23,10 +23,10 @@ public class CryptToUni {
 		}
                 catch(Exception e){}
 		char[] k;
-                k = everything.toCharArray();
-                 System.out.println(" this is everything"+everything);
-                   String check=null,check1="encryp1",check2="encryp2",check3="encryp3";
-                   check= everything.substring(everything.length()-8,everything.length()-1);
+               
+     	$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ENCRYPTION$$$$$$$$$$$
+    	$$$$$$$$$$$$$$$$$$$$$$$ ENCRYPTION ALGORITHM  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+	$$$$$$$$ENCRYPTION$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
                     System.out.println("Check values "+check);
                     if(check.equals(check1))
                     {
@@ -54,63 +54,87 @@ public class CryptToUni {
     }
     public static void decryptOne(String everything,char[] k,FileOutputStream out) throws IOException
     {
-         for(int i=0;i<everything.length()-9;i++)
-		{
-                   
-                    if(i%2==0 && i%3==0)
-                        {
-                            k[i]-=5;
-                            out.write(k[i]);
-                        }
-                        else if(i%2==0){
-				k[i]-=20;
-				out.write(k[i]);
-			}
-			else if(i%2!=0)
-			{
-				k[i]-=4;
-				out.write(k[i]);
-			}
-		}
+        ########################################################################
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	##############################################################################
     }
     public static void decryptTwo(String everything,char[] k,FileOutputStream out) throws IOException
     {
-            for(int i=0;i<everything.length()-9;i++)
-		{
-                    if(i%2==0 && i%3==0)
-                        {
-                            k[i]+=9;
-                            out.write(k[i]);
-                        }
-                        else if(i%2==0){
-				k[i]+=19;
-				out.write(k[i]);
-			}
-			else if(i%2!=0)
-			{
-				k[i]+=16;
-				out.write(k[i]);
-			}
-		}
+            ########################################################################
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	##############################################################################
     }
     public static void decryptThree(String everything,char[] k,FileOutputStream out) throws IOException
     {
-        for(int i=0;i<everything.length()-9;i++)
-		{
-                     if(i%2==0&&i%3==0)
-                        {
-                            k[i]-=7;
-                            out.write(k[i]);
-                        }
-                        else if(i%2==0){
-				k[i]-=12;
-				out.write(k[i]);
-			}
-			else if(i%2!=0)
-			{
-				k[i]-=5;
-				out.write(k[i]);
-			}
-		}
+	    
+        ########################################################################
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	##############################################################################
     }
 }
