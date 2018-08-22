@@ -29,7 +29,7 @@ public class UniToCrypt {
                 {
                     case 1:
                         try{
-                             everything+="encryp1";
+                            
                              k = everything.toCharArray();
                         encryptOne(everything,k,out);
                         }catch(Exception e){}
@@ -37,7 +37,6 @@ public class UniToCrypt {
                         break;
                     case 2:
                         try{
-                             everything+="encryp2";
                              k = everything.toCharArray();
                         encryptTwo(everything,k,out);
                         }catch(Exception e){}
@@ -45,7 +44,6 @@ public class UniToCrypt {
                         break;
                     case 3:
                         try{
-                             everything+="encryp3";
                              k = everything.toCharArray();
                         encryptThree(everything,k,out);
                         }catch(Exception e){}
@@ -60,7 +58,7 @@ public class UniToCrypt {
                      k = everything.toCharArray();
                      encryptOne(everything,k,out);
                  }catch(Exception e){
-                     System.out.println("Error ERrod kjlndnd");
+                     System.out.println("Error ");
                  }
              }
                 if(in!=null)
@@ -69,85 +67,96 @@ public class UniToCrypt {
                     out.close();
               System.out.println("Time in Seconds "+(System.currentTimeMillis()));
 	}
+	
+	
+	$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ENCRYPTION$$$$$$$$$$$
+    	$$$$$$$$$$$$$$$$$$$$$$$ ENCRYPTION ALGORITHM  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+	$$$$$$$$ENCRYPTION$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+		
+		
     public static void encryptOne(String everything,char[] k,FileOutputStream out) throws IOException
     {
-        for(int i=0;i<everything.length();i++)
-		{
-                     if(i<(everything.length()-7)){  
-                        
-                        if(i%2==0 && i%3==0)
-                        {
-                            k[i]+=5;
-                            out.write(k[i]);
-                        }
-                        else if(i%2==0){
-                            k[i]+=20;
-                            out.write(k[i]);
-                        }
-                        else if(i%2!=0)
-                        {
-                            k[i]+=4;
-                            out.write(k[i]);
-                        }
-                    }
-                     else
-                    {
-                        out.write(k[i]);
-                    }
-		}
+         ########################################################################
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+##############################################################################
     }
     public static void encryptTwo(String everything,char[] k,FileOutputStream out) throws IOException
     {
-        for(int i=0;i<everything.length();i++)
-		{
-                    if(i<(everything.length()-7)){  
-                        if(i%2==0 && i%3==0)
-                        {
-                            k[i]-=9;
-                            out.write(k[i]);
-                        }
-                        else if(i%2==0){
-				k[i]-=19;
-				out.write(k[i]);
-			}
-			else if(i%2!=0)
-			{
-				k[i]-=16;
-				out.write(k[i]);
-			}
-                    }
-                    else
-                    {
-                        out.write(k[i]);
-                    }
-		}
+        ########################################################################
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+##############################################################################
     }
     public static void encryptThree(String everything,char[] k,FileOutputStream out) throws IOException
     {
-        for(int i=0;i<everything.length();i++)
-		{
-                     if(i<(everything.length()-7)){  
-                        if(i%2==0&&i%3==0)
-                        {
-                            k[i]+=7;
-                            out.write(k[i]);
-                        }
-                        else if(i%2==0){
-				k[i]+=12;
-				out.write(k[i]);
-			}
-			else if(i%2!=0)
-			{
-				k[i]+=5;
-				out.write(k[i]);
-			}
-                     }
-                     else
-                    {
-                        out.write(k[i]);
-                    }
-                     
-		}
+         ########################################################################
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+##############################################################################
     }
     public static int getRand()
     {
@@ -156,12 +165,30 @@ public class UniToCrypt {
     }
     public static String genKey()
     {
-        char[] rand = new char[20];
-        for(int i=0;i<20;i++)
-        {
-         int randomNum = 65+(int)(Math.random()*109);
-         rand[i]=(char)randomNum;
-        }
-        return rand.toString();
+         ########################################################################
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+##############################################################################
     }
 }
